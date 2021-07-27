@@ -15,14 +15,24 @@ function Header() {
             className="align-top"
           />{" "}
         </Navbar.Brand>
-
+        <h2>Katherine Hopkins</h2>
         <Nav>
-          <Nav.Link href="https://github.com/kjackson206">Github</Nav.Link>
+          <Nav.Link href="https://github.com/kjackson206" target="_blank">
+            Github
+          </Nav.Link>
           <Nav.Link
             eventKey={2}
             href="https://www.linkedin.com/in/katherine-hopkins206/"
+            target="_blank"
           >
             Linkedin
+          </Nav.Link>
+          <Nav.Link
+            eventKey={3}
+            action="src/components/Header/Katherine-Hopkins-Resume.pdf"
+            download="Katherine Hopkins' Resume"
+          >
+            Resume
           </Nav.Link>
         </Nav>
       </Container>

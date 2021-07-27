@@ -1,0 +1,13 @@
+.footer {
+  max-height: 500px;
+  min-height: 50px;
+  position: relative;
+  color: #939d9e;
+  
+  padding-bottom: 7px;
+}
+
+.iconalign {
+  padding-left: 0 !important;
+  padding-right: 0;
+}

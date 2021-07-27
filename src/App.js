@@ -3,14 +3,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Homepage from "./pages/Homepage";
+import Project from "./components/Project";
 
 function App() {
   return (
     <Router>
       <div>
         <Header />
-        <Route exact path="/" component={Homepage} />
+        <Project />
         <Footer />
       </div>
     </Router>
